@@ -1,0 +1,11 @@
+<h1><%= t("header-page.title-name") %></h1>
+
+<p><%= t("send-mail-signup.tittle-send-mail1") %> <%= @user.name %>,</p>
+
+<p>
+<%= t("send-mail-signup.tittle-send-mail2") %>
+</p>
+
+<%= link_to t("send-mail-signup.tittle-send-mail3") ,
+  edit_account_activation_url(@user.activation_token,
+  email: @user.email) %>

@@ -1,0 +1,165 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  title: "Ruby on Rails Tutorial Sample App"
+  title-home: "Home"
+  title-about: "About"
+  title-contact: "Contact"
+  title-help: "Help"
+  title-author: "Michael Hartl"
+  title-singup: "Signup"
+  header-page:
+    tittle-login: "Login"
+    title-name: "Sample app"
+  footer-page:
+    title-footer-1: "The "
+    title-footer-2: "by "
+    title-footer-3: "News"
+  home-page:
+    title-home-1: "This is the home page for the"
+    title-home-2: "Ruby on Rails Tutorial"
+    title-home-3: "sample application."
+    title-home-4: "Welcome to the Sample App "
+    title-home-5: "Sign up now!"
+  about-page:
+    title-about-1: "The "
+    title-about-2: "Ruby on Rails Tutorial"
+    title-about-3: " is a."
+    title-about-4: "book"
+    title-about-5: " and"
+    title-about-6: "screencast series"
+    title-about-7: "to teach web development with"
+    title-about-8: "Ruby on Rails"
+    title-about-9: "This is the sample application for the tutorial."
+  contact-page:
+    title-home-1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    title-home-2: "contact page"
+  help-page:
+    title-help-1: "Get help on the Ruby on Rails Tutorial at the"
+    title-help-2: "Rails Tutorial help section"
+    title-help-3: "To get help on this sample app, see the"
+    title-help-4: "Ruby on Rails Tutorial"
+    title-help-5: "book"
+  sign-up:
+    title-signup-1: "Sign up"
+    title-signup-2: "This will be a signup page for new users."
+    title-signup-3: "Welcome to the Sample App!"
+    title-signup-4: "errors"
+    title-signup-5: "Confirmation"
+    title-signup-6: "The form contains"
+    title-signup-7: "Create my account"
+  users-page:
+    tittle-user-1: "User doesn't exist!"
+    tittle-user-2: "Log out"
+    tittle-user-3: "Settings"
+    tittle-user-4: "Profile"
+    tittle-user-5: "User"
+    tittle-user-6: "Account"
+  login-page:
+    tittle-login-1: "Login"
+    tittle-login-2: "Log in"
+    tittle-login-3: "Invalid email/password combination"
+    tittle-login-4: "New user?"
+    tittle-login-5: "Sign up now!"
+    tittle-login-6: "Remember me on this computer"
+    tittle-login-7: "Please log in."
+    tittle-login-8: "(forgot password)"
+  edit-users-page:
+    tittle-edit-user1: "Edit user"
+    tittle-edit-user2: "Update your profile"
+    tittle-edit-user3: "Confirmation"
+    tittle-edit-user4: "Save changes"
+    tittle-edit-user5: "change"
+    tittle-edit-user6: "Profile updated"
+  login-index-user:
+    tittle-index-user1: "All users"
+    tittle-index-user2: "|"
+    tittle-index-user3: "You sure?"
+    tittle-index-user4: "User deleted"
+    tittle-index-user5: "User can't delete"
+  send-mail-signup:
+    tittle-send-mail1: "Hi"
+    tittle-send-mail2: "Welcome to the Sample App! Click on the link below to
+      activate your account:"
+    tittle-send-mail3: "Activate"
+    tittle-send-mail4: "Please check your email to activate your account."
+    tittle-send-mail5: "Account activated!"
+    tittle-send-mail6: "Invalid activation link"
+    tittle-send-mail7: "Account not activated."
+    tittle-send-mail8: "Check your email for the activation link."
+    tittle-send-mail9: "Account activation"
+    tittle-send-mail10: "Password reset"
+  forgot_password_user:
+    tittle_page: "Forgot password"
+    tittle_forgot_password1: "Submit"
+    tittle_forgot_password2: "Email sent with password reset instructions"
+    tittle_forgot_password3: "Email address not found"
+  send_mail_forgotpassword:
+    tittle_sm_fogotpassword1: "Password reset"
+    tittle_sm_fogotpassword2: "To reset your password click the link below:"
+    tittle_sm_fogotpassword3: "This link will expire in two hours."
+    tittle_sm_fogotpassword4: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  reset_password_user:
+    tittle_page: "Reset password"
+    tittle_reset_password1: "Confirmation"
+    tittle_reset_password2: "Update password"
+    tittle_reset_password3: "can't be empty"
+    tittle_reset_password4: "Password has been reset."
+    tittle_reset_password5: "Password reset has expired."
+  microposts_show_user:
+    tittle_microposts_show1: "Microposts"
+    tittle_microposts_show2: "Posted "
+    tittle_microposts_show3: " ago."
+    tittle_microposts_show4: "Please log in."
+    tittle_microposts_show5: "Micropost created!"
+    tittle_microposts_show6: "Micropost Feed"
+    tittle_microposts_show7: "delete"
+    tittle_microposts_show8: "You sure?"
+    tittle_microposts_show9: "Micropost deleted"
+    tittle_microposts_show10: "should be less than 5MB"
+    tittle_microposts_show11: "Compose new micropost..."
+    tittle_microposts_show12: "Post"
+    tittle_microposts_show13: "Maximum file size is 5MB. Please choose a smaller file."
+    tittle_microposts_show14: "Micropost deleted failed"
+    tittle_microposts_show15: "view my profile"
+    tittle_microposts_show16: "microposts"
+    tittle_microposts_show17: "Microposts: "
+  follow_user:
+    following: "Following"
+    followers: "Followers"
+    unfollow: "Unfollow"
+    follow: "Follow"
+    view_profile: "view my profile"
+    follow_error: "follow errors"
+    unfollow_error: "unfollow errors"
+

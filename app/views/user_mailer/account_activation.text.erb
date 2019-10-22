@@ -1,0 +1,6 @@
+<%= t("send-mail-signup.tittle-send-mail1") %> <%= @user.name %>,
+
+<%= t("send-mail-signup.tittle-send-mail2") %>
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
+
