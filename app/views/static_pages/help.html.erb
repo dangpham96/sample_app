@@ -1,0 +1,13 @@
+<% provide :title, t("title-help") %>
+<h1><%= t("title-help") %></h1>
+<p>
+  <%= t("help-page.title-help-1") %>
+  <%= link_to Settings.webpage_help.link_help_1 do %>
+    <%= t("help-page.title-help-2") %>
+  <% end %>.
+  <%= t("help-page.title-help-3") %>
+  <%= link_to Settings.webpage.link2 do %>
+    <em><%= t("help-page.title-help-4") %></em>
+    <%= t("help-page.title-help-5") %>
+  <% end %>.
+</p>

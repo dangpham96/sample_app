@@ -1,0 +1,28 @@
+enabled_locales: ["en", "ja"]
+webpage:
+  link1: "https://www.railstutorial.org/"
+  link2: "https://www.railstutorial.org/book"
+  link3: "http://screencasts.railstutorial.org/"
+  link4: "http://rubyonrails.org/"
+  gravatar_user: "https://secure.gravatar.com/avatar"
+webpage_contact:
+  link_contact_1: "https://www.railstutorial.org/contact"
+webpage_help:
+  link_help_1: "https://www.railstutorial.org/help"
+validation_user:
+  name_user_max: 50
+  password_user_min: 6
+  password_user_max: 255
+  email_user: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+webpage_user:
+  user_size_img: 80
+edit_user:
+  gravatar_link: "http://gravatar.com/emails"
+index_user:
+  gravatar_img: 50
+  item_user_paginate: 10
+time_password_reset_expired: 2
+validation_micropost:
+  validation_content: 140
+  limit_size_img: 5
+  img_followers: 30

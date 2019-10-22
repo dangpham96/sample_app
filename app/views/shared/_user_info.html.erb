@@ -1,0 +1,8 @@
+<%= link_to gravatar_for(current_user, size: Settings.index_user.gravatar_img),
+  current_user %>
+<h1><%= current_user.name %></h1>
+<span><%= link_to t("microposts_show_user.tittle_microposts_show15"), current_user %>
+</span>
+<span><%= pluralize(current_user.microposts.size,
+  t("microposts_show_user.tittle_microposts_show16")) %>
+</span>
