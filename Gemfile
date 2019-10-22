@@ -18,7 +18,7 @@ gem "kaminari"
 gem "kaminari-bootstrap", "~> 3.0", ">= 3.0.1"
 gem "figaro"
 gem "carrierwave",             "1.2.2"
-gem "mini_magick",             "4.7.0"
+gem "mini_magick",             "4.9.4"
 gem "i18n-js"
 
 group :development, :test do
